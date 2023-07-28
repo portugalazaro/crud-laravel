@@ -13,10 +13,10 @@ Estrutura dos dados retornados
 ## Rotas
 
 Route::get('/post/create', [PostController::class, 'create']);
--> Cria um post no Banco de dados
+    Cria um post no Banco de dados
 
 Route::get('/post/read/{id}', [PostController::class, 'read']);
--> Busca um post no Banco de dados pelo seu ID
+    Busca um post no Banco de dados pelo seu ID
 
 Route::get('/post/all', [PostController::class, 'all']);
 -> Retorna todos os posts do Banco de dados
